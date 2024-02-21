@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Poppins", sans-serif;
+}
+a {
+  text-decoration: none;
+  color: gold;
+}
+.app {
+  background-color: #02101d;
+  color: white;
+  min-height: 100vh;
+}
+.logo {
+  flex: 1;
+  color: gold;
+  font-weight: bold;
+  cursor: pointer;
+}
+.banner {
+  background-image: url(./images/banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.tagline {
+  display: flex;
+  height: 40%;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.carousel {
+  height: 50%;
+  display: flex;
+  align-items: center;
+}
+.carouselItems {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  text-transform: uppercase;
+  color: white;
+}
+.row {
+  background-color: #16171a;
+  cursor: pointer;
+  font-family: "Poppins";
+}
+.row:hover {
+  background-color: #131111;
+}
+.pagination {
+  color: gold;
+}
